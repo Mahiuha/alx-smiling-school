@@ -1,0 +1,65 @@
+/* Variables */
+
+:root {
+  --color-primary: #c271ff;
+  --color-primary-light: #c988fa;
+  --color-secondary: #071629;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-grey: #a0a0a0;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+
+  --font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(256, 256, 256, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.jumbotron {
+  min-height: 100vh;
+  background-image: url(./images/pic_1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  opacity: 0.9;
+}
+
+.btn-primary:focus {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  opacity: 0.9;
+  box-shadow: 0 0 0 0.2rem var(--color-primary-light);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  opacity: 0.9;
+}
+
+.color-primary {
+  color: var(--color-primary);
+}
+
+@media screen and (max-width: 768px) {
+  .display-1 {
+    font-size: 4rem;
+  }
+}
