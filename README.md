@@ -1,5 +1,5 @@
 # alx-smiling-school
-![ALX logo](https://www.alx.com/alx-logo.png)
+![logo-white](https://github.com/Mahiuha/alx-smiling-school/assets/35099243/f4abe9de-d75e-4141-bed3-f9e8cd254218)
 > Implementing a design with bootstrap
 
 
@@ -8,7 +8,7 @@ Implement 3 web pages with bootstrap, using all HTML/CSS/Accessibility/Responsiv
 
 The objective is simple: Have a fully functional web page that looks the same as the designer file.
 
-![landing_page](images/smile-school.png)
+![smile-school](https://github.com/Mahiuha/alx-smiling-school/assets/35099243/003340c8-c93f-4623-96b7-9c017bdf1194)
 > This webpage has been designed by Nicolas Philippot, UI/UX designer.
 
 ## Live demo:computer:
