@@ -12,7 +12,7 @@ The objective is simple: Have a fully functional web page that looks the same as
 > This webpage has been designed by Nicolas Philippot, UI/UX designer.
 
 ## Live demo:computer:
-[Smile School](https://Mahiuha.github.io/alx-smiling-school/)
+[Smile School](https://Mahiuha.github.io/alx-smiling-school/homepage.html)
 
 ---
 
