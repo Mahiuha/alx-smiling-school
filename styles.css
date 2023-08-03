@@ -11,6 +11,7 @@
   --color-dark-grey: #353535;
 
   --font-family: "Source Sans Pro", sans-serif;
+  --font-family-secondary: 'Coiny', cursive;
 }
 
 body {
@@ -26,6 +27,29 @@ body {
   background-image: url(./images/pic_1.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.pricing{
+  min-height: 0;
+  background-image: url(./images/pic_2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.courses{
+  min-height: 0;
+  background-image: url(./images/pic_3.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: var(--font-family-secondary);
+}
+
+.background-primary {
+  background-color: var(--color-primary);
+}
+
+.background-secondary {
+  background-color: var(--color-secondary);
 }
 
 .btn-primary {
@@ -62,4 +86,31 @@ body {
   .display-1 {
     font-size: 4rem;
   }
+}
+
+.carousel-control-prev-icon {
+  height: 50px;
+  background-image: url(./images/arrow_white_left.png);
+}
+
+.carousel-control-next-icon {
+  height: 50px;
+  background-image: url(./images/arrow_white_right.png);
+}
+
+#carouselControls .carousel-control-prev-icon,
+#carouselControlVideo .carousel-control-prev-icon {
+  height: 50px;
+  background-image: url(./images/arrow_black_left.png);
+}
+
+#carouselControls .carousel-control-next-icon,
+#carouselControlVideo .carousel-control-next-icon {
+  height: 50px;
+  background-image: url(./images/arrow_black_right.png);
+}
+
+.navbar-nav .active {
+  border-bottom: 1px solid var(--color-white);
+  color: var(--color-primary);
 }
